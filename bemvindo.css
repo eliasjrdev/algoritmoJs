@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    font-family: 'Square Peg', cursive;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px #4A5FD9;
+    font-size: 200%;
+}
