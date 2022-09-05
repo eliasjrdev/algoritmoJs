@@ -10,7 +10,7 @@ function log(){
     
     if(inputusu.value == ''){
         resp1.style.display = 'block'
-        resp1.innerHTML = 'É obrigatório informar um usuário'
+        resp1.innerHTML = 'it is mandatory to inform a user'
 
     }else if(inputusu.value === usu){
         inputpass.style.display = 'block'
@@ -20,18 +20,19 @@ function log(){
 
     }else{
         resp1.style.display = 'block'
-        resp1.innerHTML = 'Usário Incorreto'
+        resp1.innerHTML = 'wrong user'
         inputusu.value = ''
     }
 }
 
 function startpassword(){
     if(inputpass.value == ''){
-        resp2.style.display = 'none'
+        resp2.innerHTML = 'inform the password'
+        resp2.style.display = 'block'
 
     }else if(inputpass.value !== password){
         resp2.style.display = 'block'
-        resp2.innerHTML = 'senha Incorreta'
+        resp2.innerHTML = 'incorrect password'
         inputpass.value = ''
     }else{
         abrirlink()
