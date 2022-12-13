@@ -6,6 +6,10 @@ let resp1 = document.querySelector('.resp1');
 let resp2 = document.querySelector('.resp2');
 let spsenha = document.querySelector('.spansenha')
 
+function alertar(){
+    window.alert('Use o login: usuario | e a senha: 1234')
+}
+
 function log(){
     
     if(inputusu.value == ''){
